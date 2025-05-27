@@ -1,0 +1,154 @@
+body {
+  background: rgba(0, 0, 0, 0.87);
+  font: normal 15pt Arial;
+}
+
+header {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: underline solid rgb(172, 172, 172);
+}
+  #imagem_js {
+    position: relative;
+    top: 6px;
+    left: -1px;
+    border-bottom: 4px solid rgb(172, 172, 172);
+  }
+
+section {
+  .container{
+    position: static;
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    border: solid 1px rgb(255, 0, 68);
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    .titulo_ex{
+      position: relative;
+      top: -15px;
+      font-size: 1.5rem;
+      text-decoration: underline;
+      color: rgb(255, 0, 68);
+    }
+    .cx_num
+    {
+      width: 60px;
+      padding: 3px;
+      border-radius: 5px;
+      border: 1px solid rgb(255, 0, 68);
+      outline: none;
+      padding: 5px;
+    }
+    .cx_num:focus{
+      border: 2px solid rgb(255, 0, 68);
+    }
+
+    .lista_anal{
+      padding: 5px;
+      position: relative;
+      left: -200px;
+      width: 90px;
+      height: 180px;
+      border-radius: 10px;
+      border: solid 1px rgb(255,0,68);
+      overflow: hidden;
+      animation: ease-out 1s;
+    }
+    #inicio_num{
+      position: relative;
+      left: 10px;
+    }
+    #fim_num{
+      position: relative;
+      left: 23px;
+    }
+    .inicial{
+      position: relative;
+      text-align: left;
+    }
+    #masL, #femL{
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .botao_acao{
+      font-size: 1rem;
+      font-weight: bold;
+      width: auto;
+      height: 30px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(255, 0, 68);
+      border: 1px solid rgb(0, 0, 0);
+      border-radius: 5px;
+      transition: all 0.5s;
+      outline: none;
+    }
+    .botao_acao:hover{
+      box-shadow: 3px 3px 0px #f9e506;
+      cursor: pointer;
+      transform: scale(103%);
+    }
+    #imagem{
+      position: relative;
+      top: 10px;
+      border: 3px solid rgb(63, 40, 10);
+      border-radius: 1000px;
+      box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.24);
+    }
+    #img_res{
+      position: relative;
+      top: 10px;
+      border: 3px solid rgb(255, 219, 172);
+      border-radius: 1000px;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.192);
+    }
+    #tabuada_pronta{
+      position: relative;
+      right: 25px
+    }
+
+    #finalizar{
+      position: relative;
+      left: -200px;
+    }
+
+    #lista_temp{
+      position: relative;
+      border: solid 1px rgb(255,0,68);
+      border-radius: 8px;
+      padding: 2px;
+      width: 140px;
+    }
+    #temp_label{
+      position: relative;
+      right: 110px;
+      top: 15px;
+    }
+
+    #temp-input-value{
+      position: relative;
+      width: 55px;
+    }
+
+    #temp-value-p{
+      position: relative;
+      right: 158px;
+      top: 15px;
+    }
+    #botao_convetermp{
+      position: relative;
+      top: 15px;
+    }
+}
+  
+footer{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-style: italic;
+
+}
