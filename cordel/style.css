@@ -65,7 +65,6 @@ section.normal p{
 
 section.imagem p{
   color: white;
-  display: inline-block;
   background-color: rgba(0, 0, 0, 0.301);
   backdrop-filter: blur(4px);
   text-shadow: 2px 2px 5px black;
@@ -74,6 +73,10 @@ section.imagem p{
   margin-left: -1em;
   padding-top: 2em;
   padding-bottom: 2em;
+}
+
+section.imagem{
+  box-shadow: inset 5px 10px 20px rgba(0, 0, 0, 0.514);
 }
 
 section.imagem#img1{
