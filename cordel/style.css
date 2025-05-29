@@ -77,7 +77,7 @@ section.imagem p{
 }
 
 section.imagem#img1{
-  background-image: url(imagens/bgimg1.jpg);
+  background-image: url(/projetos/imagens/bgimg1.jpg);
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -85,7 +85,7 @@ section.imagem#img1{
 }
 
 section.imagem#img2{
-  background-image: url(imagens/bgimg2.jpg);
+  background-image: url(/projetos/imagens/bgimg2.jpg);
   background-attachment: fixed;
   background-position: left top;
   background-repeat: no-repeat;
